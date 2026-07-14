@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info</title>
+    <link rel="stylesheet" href="C:\Users\ASUS\Desktop\BSc.CSE course files\9TH(SUMMER)\WEB TECHNOLOGIES\Lab\lab01\Design\design.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend><p id="legend">Student Information</p></legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="student_name">Full Name (Text):</label>
+                            <br>
+                            <input type="text" id="student_name" name="student_name"
+                    placeholder="Enter your full name" required>
+                        </td>
+                        <td>
+                            <label for="email_address">Email Address</label>
+                            <br>
+                            <input type="email" id="student_email" name="student_email" placeholder="your email@example.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <label for="password">Password</label>
+                        <br>
+                        <input type="password" id="password" name="password" placeholder="Enter your secure password">
+                        </td>
+                        <td>
+                            <label for="age">Age (Number)</label>
+                            <br>
+                            <input type="number" id="student_age" name="student_age" placeholder="Enter your age">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="experiment_date">Experiment Date</label>
+                            <br>
+                            <input type="date" id="exp_date" name="exp_date">
+                        </td>
+                        <td>
+                            <label for="phone_number">Phone Number(tel)</label>
+                            <br>
+                            <input type="number" id="phone_number" name="phone_number" placeholder="+880 XXXX XXXXX">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <br>
+        <div class="buttons">
+            <input type="submit" id="submit" name="submit" value="SUBMIT">
+            <input type="reset" id="reset" name="reset" value="CLEAR">
+        </div>
+    </div>
+</body>
+</html>

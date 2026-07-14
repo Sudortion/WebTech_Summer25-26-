@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color:white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+fieldset{
+    border-radius: 30px;
+    padding: 10px;
+    background-color:rgb(202, 190, 213);
+    border-color: blueviolet;
+}
+
+legend{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    width: 300px;
+    background-color:blueviolet;
+    border-radius: 10px;
+}
+
+#legend{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+form{
+    margin: 0 auto;
+}
+table{
+    width: auto;
+    margin: 0 auto;
+}
+
+tr{
+    margin-bottom: 10px;
+}
+
+td{
+    padding: 6px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color:white;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+input[type="submit"],
+input[type="reset"]{
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    background-color: blueviolet;
+    color: white;
+}
+
+.buttons{
+    margin-left:250px;
+}
+
+
